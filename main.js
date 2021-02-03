@@ -37,7 +37,6 @@ function randomProb(maxLimit = 32) {
   var s30 =  "https://www.shaalaa.com/question-bank-solutions/mahalaxmi-industries-ltd-kundur-issued-15000-equity-shares-of-rs-100-each-they-were-payable-as-follows-on-application-rs-20-on-allotment-rs-30-on-first-call-rs-preparation-final-accounts_90742#ref=qp&id=28396";
   var s31 =  "https://www.shaalaa.com/question-bank-solutions/following-is-the-balance-sheet-and-receipts-and-payments-account-of-ekveera-hospital-amravati-balance-sheet-as-on-142012-preparation-income-expenditure-account-closing-balance-sheet_90744#ref=qp&id=28399";
   var s32 =  "https://www.shaalaa.com/question-bank-solutions/from-the-following-trial-balance-of-m-s-vishal-and-vaibhav-you-are-required-to-prepare-trading-and-profit-and-loss-account-for-the-year-ended-31st-march-2013-and-balance-sheet-as-preparation-income-expenditure-account-closing-balance-sheet_90745#ref=qp&id=28400";
-
   var solutions = ["placeholder", s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32]
   document.getElementById("solution-btn").href = solutions[(randomnum)];
 }
