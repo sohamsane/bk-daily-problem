@@ -14,7 +14,7 @@ body {
   height: 31px;
   width: 125px;
   background-color: #0F1821;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
   color: #F8DE7E;
   text-decoration: none;
@@ -32,4 +32,3 @@ body {
 .new-update-alert {
   font-size: 15px;
 }
- 
