@@ -5,22 +5,46 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Lato:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.ico">
   <title>B.K Daily Problems</title>
 </head>
 
 <body>
-  <h1>B.K Daily Problem</h1>
-  <p class="todays-date"> Todays Date: <span id="date"></span></p>
-  <p class="new-update-alert">*New: Added View Solution Functionality.</p>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">LOL</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulas.html">Formulas At Glance</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="">
+    <h1 class="title">B.K RANDOM PROBLEM</h1>
+  </div>
+  <div class="">
+    <p class="todays-date"> Todays Date: <span id="date"></span></p>
+  </div>
   <button onclick="randomProb()" class="flip-coin-btn" type="button" name="button">Select Problem</button>
   <br>
   <img class="prob-img" id="problem-image" src="" alt="">
   <br>
-  <a id="solution-btn" href="#" target="_blank"><button class="flip-coin-btn" type="button" name="button">View Solution</button></a>
+  <a id="solution-btn" href="#" target="_blank"><button class="flip-coin-btn solution-btn" type="button" name="button">View Solution</button></a>
 
-  <p>Made by Soham Sane</p>
+  <p class="footer">Made by Soham Sane</p>
   <script src="main.js" charset="utf-8"></script>
 </body>
 
