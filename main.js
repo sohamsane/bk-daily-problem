@@ -1,7 +1,7 @@
 var dt = new Date();
 document.getElementById("date").innerHTML = dt.toLocaleDateString();
 
-function randomProb(maxLimit = 32) {
+function randomProb(maxLimit = 40) {
   const randomnum = Math.floor(Math.random() * maxLimit + 1);
   var image = document.getElementById("problem-image").src = "Images/" + randomnum + ".jpg";
 
@@ -37,6 +37,14 @@ function randomProb(maxLimit = 32) {
   var s30 =  "https://www.shaalaa.com/question-bank-solutions/mahalaxmi-industries-ltd-kundur-issued-15000-equity-shares-of-rs-100-each-they-were-payable-as-follows-on-application-rs-20-on-allotment-rs-30-on-first-call-rs-preparation-final-accounts_90742#ref=qp&id=28396";
   var s31 =  "https://www.shaalaa.com/question-bank-solutions/following-is-the-balance-sheet-and-receipts-and-payments-account-of-ekveera-hospital-amravati-balance-sheet-as-on-142012-preparation-income-expenditure-account-closing-balance-sheet_90744#ref=qp&id=28399";
   var s32 =  "https://www.shaalaa.com/question-bank-solutions/from-the-following-trial-balance-of-m-s-vishal-and-vaibhav-you-are-required-to-prepare-trading-and-profit-and-loss-account-for-the-year-ended-31st-march-2013-and-balance-sheet-as-preparation-income-expenditure-account-closing-balance-sheet_90745#ref=qp&id=28400";
-  var solutions = ["placeholder", s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32]
+  var s33 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s34 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s35 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s36 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s37 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s38 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s39 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var s40 =  "https://www.omtex.co.in/2020/08/hsc-accounts-march-2020-board-paper.html";
+  var solutions = ["placeholder", s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32, s33, s34, s35, s36, s37, s38, s39, s40]
   document.getElementById("solution-btn").href = solutions[(randomnum)];
 }
